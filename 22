@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <windows.h>
+#include<string.h>
+#include <math.h>
+#include<windows.h>
+int main()
+{
+	int a, b, c;
+	printf("请输入年月日：");
+	scanf("%4d%2d%2d", &a, &b, &c);
+	printf("year=%d\nmonth=%02d\ndate=%02d\n", a, b, c);
+}
